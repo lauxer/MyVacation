@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCCF13091F0E140B006C2A6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCF13081F0E140B006C2A6D /* main.m */; };
+		DCCF130C1F0E140B006C2A6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCF130B1F0E140B006C2A6D /* AppDelegate.m */; };
+		DCCF13121F0E140B006C2A6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCF13101F0E140B006C2A6D /* Main.storyboard */; };
+		DCCF13171F0E140B006C2A6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCF13161F0E140B006C2A6D /* Assets.xcassets */; };
+		DCCF131A1F0E140B006C2A6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCF13181F0E140B006C2A6D /* LaunchScreen.storyboard */; };
+		DCCF13251F0E146E006C2A6D /* HotelListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCF13241F0E146E006C2A6D /* HotelListViewController.m */; };
+		DCCF13281F0E149B006C2A6D /* HotelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCF13271F0E149B006C2A6D /* HotelManager.m */; };
+		DCCF13411F0E2304006C2A6D /* Hotel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCF13401F0E2304006C2A6D /* Hotel.m */; };
+		DCCF13441F0E2316006C2A6D /* Weekend.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCF13431F0E2316006C2A6D /* Weekend.m */; };
+		DCCF13481F0E4BEB006C2A6D /* HotelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCF13471F0E4BEB006C2A6D /* HotelTableViewCell.m */; };
+		DCCF134B1F0E4C19006C2A6D /* WeekendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCF134A1F0E4C19006C2A6D /* WeekendTableViewCell.m */; };
+		DCCF134E1F0E693B006C2A6D /* WeekendDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCF134D1F0E693B006C2A6D /* WeekendDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DCCF13041F0E140B006C2A6D /* MyVacation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVacation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCCF13081F0E140B006C2A6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCCF130A1F0E140B006C2A6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCCF130B1F0E140B006C2A6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCCF13111F0E140B006C2A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCCF13161F0E140B006C2A6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCCF13191F0E140B006C2A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCCF131B1F0E140B006C2A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCCF13231F0E146E006C2A6D /* HotelListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HotelListViewController.h; path = ViewController/HotelListViewController.h; sourceTree = "<group>"; };
+		DCCF13241F0E146E006C2A6D /* HotelListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HotelListViewController.m; path = ViewController/HotelListViewController.m; sourceTree = "<group>"; };
+		DCCF13261F0E149B006C2A6D /* HotelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HotelManager.h; path = Manager/HotelManager.h; sourceTree = "<group>"; };
+		DCCF13271F0E149B006C2A6D /* HotelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HotelManager.m; path = Manager/HotelManager.m; sourceTree = "<group>"; };
+		DCCF13371F0E1DDF006C2A6D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DCCF133F1F0E2304006C2A6D /* Hotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Hotel.h; path = Model/Hotel.h; sourceTree = "<group>"; };
+		DCCF13401F0E2304006C2A6D /* Hotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Hotel.m; path = Model/Hotel.m; sourceTree = "<group>"; };
+		DCCF13421F0E2316006C2A6D /* Weekend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Weekend.h; path = Model/Weekend.h; sourceTree = "<group>"; };
+		DCCF13431F0E2316006C2A6D /* Weekend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Weekend.m; path = Model/Weekend.m; sourceTree = "<group>"; };
+		DCCF13461F0E4BEB006C2A6D /* HotelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HotelTableViewCell.h; path = View/HotelTableViewCell.h; sourceTree = "<group>"; };
+		DCCF13471F0E4BEB006C2A6D /* HotelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HotelTableViewCell.m; path = View/HotelTableViewCell.m; sourceTree = "<group>"; };
+		DCCF13491F0E4C19006C2A6D /* WeekendTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeekendTableViewCell.h; path = View/WeekendTableViewCell.h; sourceTree = "<group>"; };
+		DCCF134A1F0E4C19006C2A6D /* WeekendTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeekendTableViewCell.m; path = View/WeekendTableViewCell.m; sourceTree = "<group>"; };
+		DCCF134C1F0E693B006C2A6D /* WeekendDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeekendDetailViewController.h; path = ViewController/WeekendDetailViewController.h; sourceTree = "<group>"; };
+		DCCF134D1F0E693B006C2A6D /* WeekendDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeekendDetailViewController.m; path = ViewController/WeekendDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCCF13011F0E140B006C2A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCCF12FB1F0E140A006C2A6D = {
+			isa = PBXGroup;
+			children = (
+				DCCF13061F0E140B006C2A6D /* MyVacation */,
+				DCCF13051F0E140B006C2A6D /* Products */,
+				DCCF13361F0E1DDF006C2A6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCCF13051F0E140B006C2A6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCCF13041F0E140B006C2A6D /* MyVacation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCCF13061F0E140B006C2A6D /* MyVacation */ = {
+			isa = PBXGroup;
+			children = (
+				DCCF13451F0E4BC2006C2A6D /* View */,
+				DCCF13211F0E1433006C2A6D /* Manager */,
+				DCCF13221F0E143D006C2A6D /* ViewController */,
+				DCCF13291F0E14C3006C2A6D /* Model */,
+				DCCF130A1F0E140B006C2A6D /* AppDelegate.h */,
+				DCCF130B1F0E140B006C2A6D /* AppDelegate.m */,
+				DCCF13101F0E140B006C2A6D /* Main.storyboard */,
+				DCCF13161F0E140B006C2A6D /* Assets.xcassets */,
+				DCCF13181F0E140B006C2A6D /* LaunchScreen.storyboard */,
+				DCCF131B1F0E140B006C2A6D /* Info.plist */,
+				DCCF13071F0E140B006C2A6D /* Supporting Files */,
+			);
+			path = MyVacation;
+			sourceTree = "<group>";
+		};
+		DCCF13071F0E140B006C2A6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCCF13081F0E140B006C2A6D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCCF13211F0E1433006C2A6D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DCCF13261F0E149B006C2A6D /* HotelManager.h */,
+				DCCF13271F0E149B006C2A6D /* HotelManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		DCCF13221F0E143D006C2A6D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DCCF13231F0E146E006C2A6D /* HotelListViewController.h */,
+				DCCF13241F0E146E006C2A6D /* HotelListViewController.m */,
+				DCCF134C1F0E693B006C2A6D /* WeekendDetailViewController.h */,
+				DCCF134D1F0E693B006C2A6D /* WeekendDetailViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		DCCF13291F0E14C3006C2A6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DCCF133F1F0E2304006C2A6D /* Hotel.h */,
+				DCCF13401F0E2304006C2A6D /* Hotel.m */,
+				DCCF13421F0E2316006C2A6D /* Weekend.h */,
+				DCCF13431F0E2316006C2A6D /* Weekend.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DCCF13361F0E1DDF006C2A6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCCF13371F0E1DDF006C2A6D /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCCF13451F0E4BC2006C2A6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DCCF13461F0E4BEB006C2A6D /* HotelTableViewCell.h */,
+				DCCF13471F0E4BEB006C2A6D /* HotelTableViewCell.m */,
+				DCCF13491F0E4C19006C2A6D /* WeekendTableViewCell.h */,
+				DCCF134A1F0E4C19006C2A6D /* WeekendTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCCF13031F0E140B006C2A6D /* MyVacation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCCF131E1F0E140B006C2A6D /* Build configuration list for PBXNativeTarget "MyVacation" */;
+			buildPhases = (
+				DCCF13001F0E140B006C2A6D /* Sources */,
+				DCCF13011F0E140B006C2A6D /* Frameworks */,
+				DCCF13021F0E140B006C2A6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyVacation;
+			productName = MyVacation;
+			productReference = DCCF13041F0E140B006C2A6D /* MyVacation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCCF12FC1F0E140A006C2A6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Cyril Lauxerrois";
+				TargetAttributes = {
+					DCCF13031F0E140B006C2A6D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DCCF12FF1F0E140A006C2A6D /* Build configuration list for PBXProject "MyVacation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCCF12FB1F0E140A006C2A6D;
+			productRefGroup = DCCF13051F0E140B006C2A6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCCF13031F0E140B006C2A6D /* MyVacation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCCF13021F0E140B006C2A6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCF131A1F0E140B006C2A6D /* LaunchScreen.storyboard in Resources */,
+				DCCF13171F0E140B006C2A6D /* Assets.xcassets in Resources */,
+				DCCF13121F0E140B006C2A6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCCF13001F0E140B006C2A6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCF130C1F0E140B006C2A6D /* AppDelegate.m in Sources */,
+				DCCF13281F0E149B006C2A6D /* HotelManager.m in Sources */,
+				DCCF13091F0E140B006C2A6D /* main.m in Sources */,
+				DCCF134E1F0E693B006C2A6D /* WeekendDetailViewController.m in Sources */,
+				DCCF13441F0E2316006C2A6D /* Weekend.m in Sources */,
+				DCCF13411F0E2304006C2A6D /* Hotel.m in Sources */,
+				DCCF13251F0E146E006C2A6D /* HotelListViewController.m in Sources */,
+				DCCF13481F0E4BEB006C2A6D /* HotelTableViewCell.m in Sources */,
+				DCCF134B1F0E4C19006C2A6D /* WeekendTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCCF13101F0E140B006C2A6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCCF13111F0E140B006C2A6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCCF13181F0E140B006C2A6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCCF13191F0E140B006C2A6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCCF131C1F0E140B006C2A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCCF131D1F0E140B006C2A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCCF131F1F0E140B006C2A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyVacation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vac.MyVacation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCCF13201F0E140B006C2A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyVacation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vac.MyVacation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCCF12FF1F0E140A006C2A6D /* Build configuration list for PBXProject "MyVacation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCF131C1F0E140B006C2A6D /* Debug */,
+				DCCF131D1F0E140B006C2A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCCF131E1F0E140B006C2A6D /* Build configuration list for PBXNativeTarget "MyVacation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCF131F1F0E140B006C2A6D /* Debug */,
+				DCCF13201F0E140B006C2A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCCF12FC1F0E140A006C2A6D /* Project object */;
+}
